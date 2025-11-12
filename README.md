@@ -29,7 +29,7 @@ Features a dark / light theme, project showcase, timeline-style overview, skills
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Portfolio.git
+   git clone https://github.com/shubhambatwal03/Portfolio.git
    cd Portfolio
    ```
 
