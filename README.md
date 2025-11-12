@@ -52,8 +52,12 @@ Features a dark / light theme, project showcase, timeline-style overview, skills
 - `src/App.css` – Custom styles 
 
 ## Screenshots
+Light Mode :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93047340-2189-4c4e-a96b-3ade68855262" />
+Dark Mode :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a5ffd5b-d8ca-4f36-b5aa-77bb91e13b5e" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a99e96e-b38d-42ee-b45f-8c64b3c09d9e" />
+
 
 
 ## License
