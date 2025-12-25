@@ -3,35 +3,35 @@ const projects = [
     title: "Calculator App",
     description:
       "A modern, responsive calculator web app built with ReactJS and styled using Tailwind CSS. This project replicates the look and feel of a mobile calculator, featuring a clean UI, smooth button interactions, and basic arithmetic operations.",
-    image: "./public/Calclator.png", // Add your project images
+    image: "./public/Calclator.jpg", // Add your project images
     github: "https://github.com/shubhambatwal03/Calculator", // Add your project links
   },
   {
     title: "Amazaon Clone",
     description:
       "A visually appealing clone of the Amazon homepage, built using only HTML and CSS. This project is perfect for learning front-end web development and understanding how to structure and style complex layouts.",
-    image: "./public/Amzon-Clone.png",
+    image: "./public/Amzon-Clone.jpg",
     github: "https://github.com/shubhambatwal03/Amazon-Clone-Application",
   },
   {
     title: "Rock-Paper-Scissors Game",
     description:
       "A simple and interactive Rock Paper Scissors game built with HTML, CSS, and JavaScript. Challenge the computer and see if you can beat its random choices!",
-    image: "./public/Rock-Paper-Scissors.png",
+    image: "./public/Rock-Paper-Scissors.jpg",
     github: "https://github.com/shubhambatwal03/Rock-Paper-Scissors-Game",
   },
   {
     title: "To-Do List",
     description:
       "A simple and modern Todo application built with ReactJS. This version uses ReactJS Context and the `useReducer` hook for state management, allowing users to add and delete todo items with due dates.",
-    image: "./public/To-Do-List.png",
+    image: "./public/To-Do-List.jpg",
     github: "https://github.com/shubhambatwal03/To-Do-List",
   },
   {
     title: "BMI-Calculator",
     description:
       "A simple and user-friendly Body Mass Index (BMI) Calculator built with React and Vite. This app allows users to quickly calculate their BMI based on height and weight inputs, providing instant feedback on their health status.",
-    image: "./public/BMI-Calculator.png",
+    image: "./public/BMI-Calculator.jpg",
     github: "https://github.com/shubhambatwal03/BMI-Calculator",
   },
 ];
