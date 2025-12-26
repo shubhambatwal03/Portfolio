@@ -15,9 +15,9 @@ const Contact = ({ darkMode }) => {
     const publicKey = "Oq0OzJg3E-AOG7vVJ";
 
     const templateParams = {
-      from_name: name,
-      from_email: email,
-      to_name: "Shubz",
+      name: name,
+      email: email,
+      subject: subject,
       message: message,
     };
 
