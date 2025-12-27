@@ -52,7 +52,7 @@ const Skills = ({ darkMode }) => {
     },
     {
       id: 8,
-      name: "Restful APIs",
+      name: "REST APIs",
       docs: "https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages",
       iconUrl:
         "https://img.icons8.com/?size=100&id=MX92yo3ozHJD&format=png&color=000000",
