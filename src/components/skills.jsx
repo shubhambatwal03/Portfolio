@@ -2,77 +2,119 @@ const Skills = ({ darkMode }) => {
   const skills = [
     {
       id: 1,
-      name: "HTML5",
-      docs: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
-      iconUrl: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg",
+      name: "C Language",
+      docs: "https://en.wikipedia.org/wiki/C_(programming_language)",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=0tuwKqWwti2E&format=png&color=000000",
     },
     {
       id: 2,
-      name: "CSS3 / Tailwind",
-      docs: "https://tailwindcss.com/",
+      name: "HTML5",
+      docs: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
       iconUrl:
-        "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tailwindcss.svg",
+        "https://img.icons8.com/?size=100&id=20909&format=png&color=000000",
     },
     {
       id: 3,
-      name: "JavaScript",
-      docs: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      name: "CSS3 / Tailwind",
+      docs: "https://tailwindcss.com/",
       iconUrl:
-        "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg",
+        "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
     },
     {
       id: 4,
-      name: "React.js",
-      docs: "https://reactjs.org/",
-      iconUrl: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg",
+      name: "JavaScript",
+      docs: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
     },
-    
-    
-    
     {
       id: 5,
+      name: "React.js",
+      docs: "https://reactjs.org/",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
+    },
+
+    {
+      id: 6,
       name: "Node.js",
       docs: "https://nodejs.org/",
       iconUrl:
-        "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/nodedotjs.svg",
-    },
-    
-    {
-      id: 6,
-      name: "GitHub",
-      docs: "https://docs.github.com/en",
-      iconUrl: "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg",
+        "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
     },
     {
       id: 7,
+      name: "Express.js",
+      docs: "https://expressjs.com/",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=WNoJgbzDr3i2&format=png&color=000000",
+    },
+    {
+      id: 8,
+      name: "Restful APIs",
+      docs: "https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=MX92yo3ozHJD&format=png&color=000000",
+    },
+
+    {
+      id: 9,
+      name: "Git",
+      docs: "https://git-scm.com/",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+    },
+
+    {
+      id: 10,
+      name: "GitHub",
+      docs: "https://docs.github.com/en",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=63777&format=png&color=000000",
+    },
+    {
+      id: 11,
       name: "MongoDB",
       docs: "https://www.mongodb.com/",
       iconUrl:
-        "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg",
-    },{
-      id: 8,
+        "https://img.icons8.com/?size=100&id=tBBf3P8HL0vR&format=png&color=000000",
+    },
+    {
+      id: 12,
       name: "Prompt Engineering",
       docs: "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html",
       iconUrl:
-        "https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/chatgpt.svg",
+        "https://img.icons8.com/?size=100&id=43988&format=png&color=000000",
+    },
+    {
+      id: 13,
+      name: "Python",
+      docs: "https://www.python.org/",
+      iconUrl:
+        "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
     },
   ];
 
   return (
     <section
       id="skills"
-      className={`transition-colors duration-200 py-12 px-6 ${
+      className={`min-h-screen py-20 ${
         darkMode ? "bg-gray-900 text-gray-100" : "bg-white text-gray-900"
-      }`}
+      } transition-colors duration-300`}
       aria-labelledby="skills-heading"
     >
       <div className="max-w-6xl mx-auto ">
         <header className="mb-8">
-          <h2 id="skills-heading" className="text-amber-500 text-5xl font-bold mb-1.5 text-center">
+          <h2
+            id="skills-heading"
+            className="text-amber-500 text-5xl font-bold mb-1.5 text-center"
+          >
             EXPERTISE
           </h2>
           <p className="text-center mb-12">
-            I am proficient in performing tasks related to all of the listed skills below.
+            I am proficient in performing tasks related to all of the listed
+            skills below.
           </p>
         </header>
 
