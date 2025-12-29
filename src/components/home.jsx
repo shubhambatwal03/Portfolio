@@ -40,7 +40,7 @@ const Home = ({ darkMode }) => {
 
             <a href="https://github.com/shubhambatwal03/">
               <img
-                src="https://freepnglogo.com/images/all_img/github-invertocat-logo-f0e0.png"
+                src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000"
                 alt="Github"
                 className="w-10 h-10 hover:scale-110 transition-transform"
               />
