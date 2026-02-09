@@ -1,16 +1,119 @@
-# React + Vite
+🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio website built using React, Vite, and Tailwind CSS.
+This portfolio showcases projects, skills, and contact information with a clean UI and smooth user experience.
+It also includes EmailJS integration for direct contact form submissions.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚡ Fast and optimized build using Vite
+🎨 Modern UI with Tailwind CSS
+📱 Fully responsive design (mobile-first)
+📂 Project showcase with images
+📧 Contact form with EmailJS integration
+🧼 Clean code structure and ESLint configuration
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+🛠️ Tech Stack
+
+Frontend Technologies:
+React (v19)
+Vite
+Tailwind CSS
+Lucide Icons
+
+
+Utilities & Libraries:
+EmailJS
+Axios
+
+
+Development Tools:
+VSCode
+
+---
+
+📂 Project Structure
+
+Portfolio-main/
+│
+├── public/              # Static assets & project images
+├── src/                 # Application source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Portfolio sections
+│   └── assets/          # Images & icons
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+# Clone the repository
+git clone https://github.com/shhbhambatwal03/Portfolio.git
+
+# Navigate to the project directory
+cd Portfolio-main
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+The application will be available at:
+http://localhost:5173
+
+
+---
+
+🔐 EmailJS Configuration
+
+To enable the contact form:
+
+1. Create an account on EmailJS
+2. Set up a service and template
+3. Add your credentials in the required config file
+4. Follow instructions in:
+
+EMAILJS_SETUP.md
+EMAILJS_README.md
+
+
+---
+
+📸 Screenshots
+Light Mode:
+<img width="1920" height="1080" alt="Light" src="https://github.com/user-attachments/assets/8ddbbdc3-5dcc-46a3-bd05-5a08ad99bc54" />
+Dark Mode:
+<img width="1920" height="1080" alt="Dark" src="https://github.com/user-attachments/assets/1069e501-af41-4903-b22f-391b2a7e5067" />
+
+
+---
+
+🚀 Deployment
+
+You can deploy this portfolio easily using:
+Vercel
+
+
+Build command:
+npm run build
+
+
+---
+
+👨‍💻 Author
+Shubham Batwal
