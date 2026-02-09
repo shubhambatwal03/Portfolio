@@ -95,9 +95,13 @@ EMAILJS_README.md
 ---
 
 📸 Screenshots
+
 Light Mode:
+
 <img width="1920" height="1080" alt="Light" src="https://github.com/user-attachments/assets/8ddbbdc3-5dcc-46a3-bd05-5a08ad99bc54" />
+
 Dark Mode:
+
 <img width="1920" height="1080" alt="Dark" src="https://github.com/user-attachments/assets/1069e501-af41-4903-b22f-391b2a7e5067" />
 
 
