@@ -23,6 +23,7 @@ It also includes EmailJS integration for direct contact form submissions.
 🛠️ Tech Stack
 
 Frontend Technologies:
+
 React (v19)
 Vite
 Tailwind CSS
@@ -30,11 +31,13 @@ Lucide Icons
 
 
 Utilities & Libraries:
+
 EmailJS
 Axios
 
 
 Development Tools:
+
 VSCode
 
 ---
@@ -62,18 +65,23 @@ Portfolio-main/
 Follow these steps to run the project locally:
 
 # Clone the repository
+
 git clone https://github.com/shhbhambatwal03/Portfolio.git
 
 # Navigate to the project directory
+
 cd Portfolio-main
 
 # Install dependencies
+
 npm install
 
 # Start development server
+
 npm run dev
 
 The application will be available at:
+
 http://localhost:5173
 
 
@@ -110,14 +118,17 @@ Dark Mode:
 🚀 Deployment
 
 You can deploy this portfolio easily using:
+
 Vercel
 
 
 Build command:
+
 npm run build
 
 
 ---
 
 👨‍💻 Author
+
 Shubham Batwal
